@@ -1,0 +1,94 @@
+=== RAPORT poziom3_20261106_124711 ===
+poziom=3
+obszar={'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+powod_konca=zatrzymane klawiszem F6
+Czas 99.9 s; 136 próbek/s; zmian obrazu miecha 15.2/s
+Czas trwania jednego pomiaru: mediana 6.9 ms, najdłuższa przerwa 25.9 ms
+
+--- MIECH (wysokość czarnego w px) ---
+Zakres: p5=20.1, p95=58.1 (część 1: pełne wciśnięcie ok. 15, góra ok. 58)
+Naciśnięcia: 57
+Czasy naciśnięć [s]: 2.656 4.258 5.847 6.253 7.447 9.058 10.652 12.254 12.657 13.842 14.249 15.452 17.047 18.652 20.261 20.654 29.310 29.643 30.643 30.977 31.986 34.654 34.988 35.993 36.317 37.329 38.665 38.986 46.288 47.430 47.712 48.560 50.851 51.152 52.024 53.135 53.438 54.285 54.579 55.420 55.722 56.576 56.856 57.710 58.011 58.862 59.129 59.983 60.286 61.140 61.424 62.292 72.357 73.963 75.553 77.171 77.547
+
+--- RAMKA (jasność krawędzi) ---
+Zakres dolnej krawędzi: p5=0.0, p95=242.0 (część 1: 0 i ok. 250)
+  korelacja ramka_gora z dolną: +0.919 (mierzona rzadziej, niższa wartość jest tu normalna)
+  korelacja ramka_lewa z dolną: +1.000
+  korelacja ramka_prawa z dolną: +1.000
+Rozbłyski ramki (narastanie): 122 zdarzeń, odstęp mediana 667.9 ms, min 552.6, maks 813.4
+  rozkład odstępów: 550 ms x1, 560 ms x12, 570 ms x15, 580 ms x10, 590 ms x5, 600 ms x1, 650 ms x2, 660 ms x9, 670 ms x13, 680 ms x2, 780 ms x1, 790 ms x11, 800 ms x24, 810 ms x15
+  stały okres 669.62 ms = 89.6 na minutę, rozrzut względem siatki 191.0 ms, pominięte: 4
+Odcinki stałego tempa:
+     0.16-  26.57 s: okres ramki  801.5 ms =  74.9 BPM, rozbłysków 34
+    26.57-  43.90 s: okres ramki  667.1 ms =  89.9 BPM, rozbłysków 27
+    43.90-  69.06 s: okres ramki  569.9 ms = 105.3 BPM, rozbłysków 45
+    69.06-  83.48 s: okres ramki  800.9 ms =  74.9 BPM, rozbłysków 19
+Ramka zostaje jasna: mediana 268 ms
+
+--- CZY RAMKA POKRYWA SIĘ Z RYTMEM MIECHA? ---
+Krok  665.3 ms:  65% naciśnięć w jednym skupisku (przypadkiem 12%)
+Krok  332.7 ms: 100% naciśnięć w jednym skupisku (przypadkiem 24%)
+Krok  166.3 ms: 100% naciśnięć w jednym skupisku (przypadkiem 48%)
+Naciśnięcia w rytmie (+/-40 ms): 37 z 57, rozrzut 13.8 ms
+Naciśnięcie widać 76.1 ms po punkcie rytmu (część 1: 98 ms)
+  Ramka w jednym okresie (0 = rozbłysk):
+        0.0 ms    20.1 |##
+       28.5 ms    91.7 |############
+       57.0 ms   189.3 |########################
+       85.5 ms   228.8 |##############################
+      114.0 ms   208.2 |###########################
+      142.5 ms   184.6 |########################
+      171.0 ms   157.1 |####################
+      199.5 ms   132.5 |#################
+      228.0 ms   104.8 |#############
+      256.5 ms    82.2 |##########
+      284.9 ms    56.2 |#######
+      313.4 ms    33.0 |####
+      341.9 ms    11.0 |#
+      370.4 ms     2.0 |
+      398.9 ms     0.0 |
+      427.4 ms     0.0 |
+      455.9 ms     0.0 |
+      484.4 ms     0.0 |
+      512.9 ms     0.0 |
+      541.4 ms     0.0 |
+
+WERDYKT: TAK: miech trzyma rytm ramki, krok 1/1 okresu (37 z 57 naciśnięć)
+
+--- ZGODNOŚĆ ZE SCHEMATEM POZIOMU 3 ---
+Rund w nagraniu: 4, w schemacie: 4
+Runda 1: od 2.66 s, 16 naciśnięć, krok 1600 ms, długość 12 miejsc
+  odczyt : 1 1 2 1 1 1 2 2 1 1 1 2
+  schemat: 1 1 2 1 1 1 2 2 1 1 1 2
+  ZGODNA
+Runda 2: od 29.31 s, 12 naciśnięć, krok 1333 ms, długość 8 miejsc
+  odczyt : 2 2 1 _ 2 2 1 2
+  schemat: 2 2 1 _ 2 2 1 2
+  ZGODNA
+Runda 3: od 46.29 s, 24 naciśnięć, krok 1143 ms, długość 15 miejsc
+  odczyt : 1 2 1 _ 2 1 2 2 2 2 2 2 2 2 1
+  schemat: 1 2 1 _ 2 1 2 2 2 2 2 2 2 2 1
+  ZGODNA
+Runda 4: od 72.36 s, 5 naciśnięć, krok 1600 ms, długość 4 miejsc
+  odczyt : 1 1 1 2
+  schemat: 1 1 1 2
+  ZGODNA
+Zgodne rundy: 4 z 4
+
+--- CO PULSUJE W RYTMIE 569.9 ms (mapa ekranu 16x9) ---
+    21   17   17   17   17   17   17   17   17   17   17   17   17   17   17   21
+    16    0    0    0    0    0    0    0    0    1    1    1    0    0    0   16
+    16    0    0    0    2    3    1    1    1    2    3    2    1    1    0   16
+    15    0    0    0    3    4    0    1    2    3    2    2    2    1    0   15
+    14    0    0    0    0    1    3    9    6    3    2    2    1    1    0   14
+    13    0    0    0    0    2    6    4    4    5    2    1    1    1    0   13
+    13    0    0    0    0    0    5    7   10    4    1    1    1    0    0   13
+    25    0    0    0    0    0    2    2    3    0    0    1    0    0    0   25
+    25    0    0    0    1    1    0    1    1    1    1    0    0    0    0   25
+Średnia jasność ekranu: rozrzut 3.24 (skala 0-255)
+
+--- DODATKOWE ---
+sztabka: p5-p95 107-235, pojawienia 4, zaniknięcia 4
+  pojawienia [s]: 2.610 29.287 46.256 72.330
+piec: p5-p95 156-193, pojawienia 12, zaniknięcia 12
+  pojawienia [s]: 1.575 4.973 10.000 12.796 19.602 30.128 35.902 39.432 47.475 51.901 73.977 77.766

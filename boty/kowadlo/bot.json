@@ -1,0 +1,16 @@
+{
+  "nazwa": "Kowadło (Ton Kampon)",
+  "opis": "Naciska D w rytmie ramki po każdym naciśnięciu miecha. Włącz w grze klawiszem F8 co najmniej 3-4 s przed rundą. F6/F7 przesuwa uderzenie o 10 ms, F9 kończy. Klawisz trafia do aktywnego okna, więc gra musi mieć fokus.",
+  "skrypt": "bot.py",
+  "opcje": [
+    {"arg": "--przesuniecie", "etykieta": "Przesunięcie [s]", "typ": "float", "domyslnie": 0.15},
+    {"arg": "--monitor", "etykieta": "Monitor z grą", "typ": "int", "domyslnie": 1},
+    {"arg": "--debug", "etykieta": "Pokazuj pominięte naciśnięcia", "typ": "bool", "domyslnie": true},
+    {"arg": "--bez-sztabki", "etykieta": "Nie sprawdzaj sztabki", "typ": "bool", "domyslnie": false}
+  ],
+  "polecenia": [
+    {"etykieta": "Włącz / wstrzymaj", "polecenie": "przelacz"},
+    {"etykieta": "-10 ms", "polecenie": "minus"},
+    {"etykieta": "+10 ms", "polecenie": "plus"}
+  ]
+}

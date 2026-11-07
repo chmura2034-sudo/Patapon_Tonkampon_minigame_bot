@@ -1,0 +1,9 @@
+{
+  "nazwa": "Kowadło: badanie",
+  "opis": "Tylko obserwacja, nic nie naciska. F6 zaczyna i kończy nagrywanie, raport trafia do boty/kowadlo/badania/.",
+  "skrypt": "badanie.py",
+  "opcje": [
+    {"arg": "--czas", "etykieta": "Limit nagrania [s]", "typ": "float", "domyslnie": 90},
+    {"arg": "--monitor", "etykieta": "Monitor z grą", "typ": "int", "domyslnie": 1}
+  ]
+}

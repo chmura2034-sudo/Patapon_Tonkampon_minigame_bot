@@ -1,0 +1,3 @@
+poziom=2
+obszar={'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+powod_konca=zatrzymane klawiszem F6

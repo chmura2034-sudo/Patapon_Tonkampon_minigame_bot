@@ -1,0 +1,105 @@
+[badanie] monitor 1: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080, 'is_primary': True, 'output': 'eDP-1', 'unique_id': 'model=BOE08DF&mfr_date=2019W37'}
+[pole] Poziom: 1
+[badanie] wejdź do minigierki i naciśnij F6, aby nagrywać (Ctrl+C = wyjście)
+[stan] WSTRZYMANY: czeka na F6
+[badanie] NAGRYWAM (limit 120 s). F6 albo Ctrl+C kończy.
+[stan] WŁĄCZONY: nagrywa poziom 1
+[badanie] stop: zatrzymane klawiszem F6; próbek: 10837
+[stan] WSTRZYMANY: liczy raport
+=== RAPORT poziom1_20261106_122447 ===
+poziom=1
+obszar={'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+powod_konca=zatrzymane klawiszem F6
+Czas 81.8 s; 133 próbek/s; zmian obrazu miecha 10.5/s
+Czas trwania jednego pomiaru: mediana 7.1 ms, najdłuższa przerwa 37.4 ms
+
+--- MIECH (wysokość czarnego w px) ---
+Zakres: p5=22.8, p95=58.1 (część 1: pełne wciśnięcie ok. 15, góra ok. 58)
+Naciśnięcia: 34
+Czasy naciśnięć [s]: 2.901 4.491 6.097 9.290 10.900 12.490 15.694 17.297 20.500 29.558 30.900 32.254 34.901 37.557 38.891 46.537 47.683 48.811 49.996 51.098 53.385 54.546 55.658 57.954 59.101 60.232 61.386 62.538 62.825 63.682 72.601 74.199 75.798 77.401
+
+--- RAMKA (jasność krawędzi) ---
+Zakres dolnej krawędzi: p5=0.0, p95=244.0 (część 1: 0 i ok. 250)
+  korelacja ramka_gora z dolną: +0.897 (mierzona rzadziej, niższa wartość jest tu normalna)
+  korelacja ramka_lewa z dolną: +1.000
+  korelacja ramka_prawa z dolną: +1.000
+Rozbłyski ramki (narastanie): 119 zdarzeń, odstęp mediana 667.7 ms, min 539.7, maks 817.4
+  rozkład odstępów: 540 ms x2, 550 ms x2, 560 ms x9, 570 ms x15, 580 ms x7, 590 ms x7, 600 ms x1, 610 ms x1, 640 ms x1, 660 ms x7, 670 ms x16, 680 ms x1, 690 ms x1, 780 ms x3, 790 ms x8, 800 ms x29, 810 ms x6, 820 ms x2
+  stały okres 669.64 ms = 89.6 na minutę, rozrzut względem siatki 187.8 ms, pominięte: 3
+Odcinki stałego tempa:
+     0.41-  26.81 s: okres ramki  801.2 ms =  74.9 BPM, rozbłysków 34
+    26.81-  44.15 s: okres ramki  667.1 ms =  89.9 BPM, rozbłysków 27
+    44.15-  69.32 s: okres ramki  570.6 ms = 105.2 BPM, rozbłysków 45
+    69.32-  81.31 s: okres ramki  798.1 ms =  75.2 BPM, rozbłysków 16
+Ramka zostaje jasna: mediana 271 ms
+
+--- CZY RAMKA POKRYWA SIĘ Z RYTMEM MIECHA? ---
+Krok  667.7 ms:  97% naciśnięć w jednym skupisku (przypadkiem 12%)
+Krok  333.9 ms: 100% naciśnięć w jednym skupisku (przypadkiem 24%)
+Krok  166.9 ms: 100% naciśnięć w jednym skupisku (przypadkiem 48%)
+Naciśnięcia w rytmie (+/-40 ms): 32 z 34, rozrzut 13.4 ms
+Naciśnięcie widać 77.0 ms po punkcie rytmu (część 1: 98 ms)
+  Ramka w jednym okresie (0 = rozbłysk):
+        0.0 ms    37.2 |####
+       28.5 ms   177.4 |######################
+       57.1 ms   240.7 |##############################
+       85.6 ms   221.8 |###########################
+      114.1 ms   195.3 |########################
+      142.6 ms   169.2 |#####################
+      171.2 ms   143.0 |#################
+      199.7 ms   119.4 |##############
+      228.2 ms    92.2 |###########
+      256.8 ms    67.0 |########
+      285.3 ms    42.1 |#####
+      313.8 ms    17.0 |##
+      342.3 ms     2.2 |
+      370.9 ms     0.0 |
+      399.4 ms     0.0 |
+      427.9 ms     0.0 |
+      456.5 ms     0.0 |
+      485.0 ms     0.0 |
+      513.5 ms     0.0 |
+      542.0 ms     0.0 |
+
+WERDYKT: TAK: miech trzyma rytm ramki, krok 1/1 okresu (32 z 34 naciśnięć)
+
+--- ZGODNOŚĆ ZE SCHEMATEM POZIOMU 1 ---
+Rund w nagraniu: 4, w schemacie: 4
+Runda 1: od 2.90 s, 9 naciśnięć, krok 1600 ms, długość 12 miejsc
+  odczyt : 1 1 1 _ 1 1 1 _ 1 1 _ 1
+  schemat: 1 1 1 1 1 1 _ 1 1 _ 1
+  RÓŻNICA
+Runda 2: od 29.56 s, 6 naciśnięć, krok 1333 ms, długość 8 miejsc
+  odczyt : 1 1 1 _ 1 _ 1 1
+  schemat: 1 1 1 _ 1 _ 1 1
+  ZGODNA
+Runda 3: od 46.54 s, 15 naciśnięć, krok 1143 ms, długość 16 miejsc
+  odczyt : 1 1 1 1 1 _ 1 1 1 _ 1 1 1 1 2 1
+  schemat: 1 1 1 1 1 _ 1 1 1 _ 1 1 1 1 2 1
+  ZGODNA
+Runda 4: od 72.60 s, 4 naciśnięć, krok 1600 ms, długość 4 miejsc
+  odczyt : 1 1 1 1
+  schemat: 1 1 1 1
+  ZGODNA
+Zgodne rundy: 3 z 4
+
+--- CO PULSUJE W RYTMIE 570.6 ms (mapa ekranu 16x9) ---
+    27   22   22   22   22   22   22   22   22   22   22   22   22   22   22   27
+    22    0    0    0    0    0    0    0    0    1    0    1    1    1    1   22
+    21    0    0    0    8   11    0    0    1    1    4    3    1    1    0   21
+    20    0    0    0    5   10    0    1    3    5    4    3    1    1    0   20
+    19    0    0    0    0    3    2   13   12    2    3    4    1    1    0   19
+    18    0    0    0    0    3   13   12   12   10    3    1    1    1    0   18
+    17    0    0    0    0    0   12   20   21   10    1    1    1    1    0   17
+    33    0    0    0    1    1    5    5    5    1    1    1    1    1    0   33
+    33    0    0    0    1    1    1    1    1    1    1    0    0    0    0   33
+Średnia jasność ekranu: rozrzut 2.86 (skala 0-255)
+
+--- DODATKOWE ---
+sztabka: p5-p95 107-234, pojawienia 4, zaniknięcia 4
+  pojawienia [s]: 2.889 29.547 46.498 72.576
+piec: p5-p95 156-185, pojawienia 20, zaniknięcia 20
+  pojawienia [s]: 1.806 4.016 4.773 7.979 11.586 16.512 17.514 22.074 30.946 35.852 38.525 41.029 47.824 54.141 55.359 58.765 59.725 73.283 74.520 78.051
+
+[badanie] raport: /home/kernel/Documents/Patapon_minigame_bot/boty/kowadlo2/badania/poziom1_20261106_122447/raport.txt
+[stan] ZATRZYMANY

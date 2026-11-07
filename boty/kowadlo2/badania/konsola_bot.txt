@@ -1,0 +1,93 @@
+[bot] monitor 1: {'left': 0, 'top': 0, 'width': 1920, 'height': 1080}
+[bot] log: /home/kernel/Documents/Patapon_minigame_bot/boty/kowadlo2/badania/bot_20261106_123016.csv
+[bot] F8 = start/pauza, F6/F7 = -/+10 ms, F9 = koniec
+[pole] Przesunięcie: +150 ms
+[stan] WSTRZYMANY: bot nie naciska
+[stan] WŁĄCZONY: bot naciska
+[bot] siatka złapana: okres ramki 800.1 ms
+[pole] Rytm: 800 ms
+[pole] Uderzenia: 1
+[bot] 'd' 525 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 2
+[bot] 'd' 528 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 3
+[bot] 'd' 520 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 4
+[bot] 'd' 525 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 5
+[bot] 'd' 525 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 6
+[bot] 'd' 521 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 7
+[bot] 'd' 526 ms po miechu, błąd planu +0.1 ms
+[pole] Uderzenia: 8
+[bot] 'd' 516 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 9
+[bot] 'd' 530 ms po miechu, błąd planu +0.1 ms
+[bot] siatka utracona: okres ramki 800.1 ms
+[pole] Rytm: brak
+[bot] siatka złapana: okres ramki 666.7 ms
+[pole] Rytm: 667 ms
+[pole] Uderzenia: 10
+[bot] 'd' 424 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 11
+[bot] 'd' 416 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 12
+[bot] 'd' 421 ms po miechu, błąd planu +0.2 ms
+[pole] Uderzenia: 13
+[bot] 'd' 430 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 14
+[bot] 'd' 420 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 15
+[bot] 'd' 426 ms po miechu, błąd planu +0.1 ms
+[bot] siatka utracona: okres ramki 666.7 ms
+[pole] Rytm: brak
+[bot] siatka złapana: okres ramki 571.4 ms
+[pole] Rytm: 571 ms
+[pole] Uderzenia: 16
+[bot] 'd' 356 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 17
+[bot] 'd' 347 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 18
+[bot] 'd' 354 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 19
+[bot] 'd' 347 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 20
+[bot] 'd' 361 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 21
+[bot] 'd' 369 ms po miechu, błąd planu +0.1 ms
+[pole] Uderzenia: 22
+[bot] 'd' 354 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 23
+[bot] 'd' 364 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 24
+[bot] 'd' 363 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 25
+[bot] 'd' 356 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 26
+[bot] 'd' 365 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 27
+[bot] 'd' 352 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 28
+[bot] 'd' 352 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 29
+[bot] 'd' 333 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 30
+[bot] 'd' 353 ms po miechu, błąd planu +0.0 ms
+[bot] siatka utracona: okres ramki 571.4 ms
+[pole] Rytm: brak
+[bot] siatka złapana: okres ramki 800.1 ms
+[pole] Rytm: 800 ms
+[pole] Uderzenia: 31
+[bot] 'd' 520 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 32
+[bot] 'd' 524 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 33
+[bot] 'd' 522 ms po miechu, błąd planu +0.0 ms
+[pole] Uderzenia: 34
+[bot] 'd' 518 ms po miechu, błąd planu +0.0 ms
+[bot] siatka utracona: okres ramki 800.1 ms
+[pole] Rytm: brak
+[stan] WSTRZYMANY: bot nie naciska
+[bot] koniec
+[stan] ZATRZYMANY
